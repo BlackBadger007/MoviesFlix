@@ -1075,8 +1075,16 @@ function check(){
 
   }else{
 
-    window.location.href = '/login.html'
-    login()
+    if(global.currentPage === '/login.html' || global.currentPage === '/login'){
+      login()
+      
+    }else if(global.currentPage === '/create.html' || global.currentPage === '/create'){
+      create()
+      
+    }else{
+      window.location.href = '/login.html'
+      login()
+    }
 
   } 
 }
