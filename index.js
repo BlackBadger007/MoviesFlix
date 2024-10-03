@@ -1062,7 +1062,7 @@ function check(){
       }else if(global.currentPage === '/create.html' || global.currentPage === '/create'){
         create()
 
-      }else{
+      }else {
         window.location.href = '/login.html'
         login()
       }
@@ -1078,6 +1078,10 @@ function check(){
   function init(){
     switch(global.currentPage){
         case'/':
+        displayPopularMovies();
+        lasthai();
+        dodo();       
+        break;
 
         // case'/create.html':
         // create()
@@ -1205,7 +1209,7 @@ function check(){
         displayMoviesDetails();
         lasthai();
         break;
-        
+
         case'/movie-details':
         displayMoviesDetails();
         lasthai();
