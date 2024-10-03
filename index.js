@@ -1055,17 +1055,31 @@ function signout(){
 
 // ROUTER
 function check(){
+  if(localStorage.getItem('currentAccount')){
+
     if(localStorage.getItem('currentAccount') === 'null'){
       if(global.currentPage === '/login.html' || global.currentPage === '/login'){
         login()
-
+        
       }else if(global.currentPage === '/create.html' || global.currentPage === '/create'){
         create()
-
+        
       }else {
         window.location.href = '/login.html'
         login()
       }
+    }else{
+      if(global.currentPage === '/login.html' || global.currentPage === '/login'){
+        login()
+        
+      }else if(global.currentPage === '/create.html' || global.currentPage === '/create'){
+        create()
+        
+      }else {
+        window.location.href = '/login.html'
+        login()
+      }
+    }
       
     }else{
         init()
