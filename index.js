@@ -1090,6 +1090,9 @@ function check(){
         case'/profile.html':
         profile()
         break;
+        case'/profile':
+        profile()
+        break;
         
   
         case'/providers.html':
@@ -1097,7 +1100,16 @@ function check(){
         lasthai();
         break;
 
+        case'/providers':
+        providers();
+        lasthai();
+        break;
+
         case'/kids.html':
+        parentstar();
+        break;
+
+        case'/kids':
         parentstar();
         break;
   
@@ -1106,7 +1118,16 @@ function check(){
         lasthai();
         break;
 
+        case'/upcoming':
+        upcoming();
+        lasthai();
+        break;
+
         case'/favourite.html':
+        favmov();
+        lasthai();
+        break;
+        case'/favourite':
         favmov();
         lasthai();
         break;
@@ -1137,12 +1158,23 @@ function check(){
         displayTVShows();
         lasthai();
         break;
+        case'/shows':        
+        displayTVShows();
+        lasthai();
+        break;
    
         case'/parental.html':
         lasthai();
         break;
+        case'/parental':
+        lasthai();
+        break;
 
         case'/cate.html':
+        displaycate();
+        lasthai();
+        break;
+        case'/cate':
         displaycate();
         lasthai();
         break;
@@ -1158,8 +1190,23 @@ function check(){
         }
         break;
 
+        case'/search':
+        if(till==='tv'){
+          displaySearchTv();
+          lasthai();
+        }else{
+          displaySearchMovies();
+          lasthai();
+        }
+        break;
+
 
         case'/movie-details.html':
+        displayMoviesDetails();
+        lasthai();
+        break;
+        
+        case'/movie-details':
         displayMoviesDetails();
         lasthai();
         break;
@@ -1167,13 +1214,27 @@ function check(){
         case'/movies-detailskids.html':
         displayMoviesDetailskids();
         break;
+
+        case'/movies-detailskids':
+        displayMoviesDetailskids();
+        break;
   
         case'/tv-details.html':
         displayTvDetails(golo.currentPage);
         lasthai();
         break;
+
+        case'/tv-details':
+        displayTvDetails(golo.currentPage);
+        lasthai();
+        break;
           
         case'/trenddet.html':
+        trendingDetails();
+        lasthai();
+        break;
+
+        case'/trenddet':
         trendingDetails();
         lasthai();
         break;
