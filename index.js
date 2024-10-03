@@ -1051,6 +1051,7 @@ function signout(){
     
   }
 
+  
   function device(){
     if(/Mobi|Android/i.test(navigator.userAgent)){
       alert('not compatible for mobile device , select desktop site mode')
