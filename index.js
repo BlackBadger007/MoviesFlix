@@ -1051,10 +1051,10 @@ function signout(){
     
   }
 
-  
+
   function device(){
     if(/Mobi|Android/i.test(navigator.userAgent)){
-      alert('not compatible for mobile device , select desktop site mode')
+      window.location.href='/not-compatible.html'
     }else{
       check()
     }
