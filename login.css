@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/22033.jpg); 
+     background-size: cover;
+
+
+    /* margin-top: 125px; */
+    /* background: blue; */
+}
+.g2{
+    text-align: center;
+
+}
+#showpass{
+    margin-left: 189px;
+}
+
+
+#showcpass{
+    margin-left: 115px;
+}
+
+.butu{
+
+
+
+    font-size: 15px;
+    /* font-weight: 100px; */
+    color: whitesmoke;
+    
+    /* display: block; */
+    max-width: fit-content;
+    background: gray;
+    text-align: center;
+    
+    
+    padding: 4px 17px;
+    /* max-width: 100px; */
+    /* margin: auto; */
+    /* margin: 30px 200px; */
+    /* margin-top: 5px; */
+    /* margin-left: 100px; */
+
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 550;
+
+}
+
+.cls{
+    /* padding-top: 125px; */
+    max-width: fit-content;
+    /* max-height: fit-content; */
+    font-family:'Roboto',sans-serif;
+    /* background: white; */
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 175px;
+    color: whitesmoke;
+    font-size: 20px;
+
+
+
+}
+#cls11{
+    padding-top: 10px;
+    
+}
+#profile{
+    display: block;
+    width:350px;
+    /* height: 10px; */
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px ;
+    outline: none;
+    border: 0px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px 15px;
+
+}
+
+
+    
+
+.foo{
+    font-family:'Roboto',sans-serif;
+    
+    text-align: center;
+    color: white;
+}
+/* #ret{ */
+#shop{
+    /* font-size: 20px; */
+    font-size: 25px;
+    color: whitesmoke;
+    
+    display: block;
+    max-width: fit-content;
+    background: gray;
+    text-align: center;
+    
+    
+    padding: 4px 20px;
+    /* max-width: 100px; */
+    /* margin: auto; */
+    /* margin: 30px 200px; */
+    margin-top: 25px;
+    margin-left: 110px;
+
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+
+    
+
+    /* width: 300px; */
+    
+    
+    
+    
+    /* margin-top: 10px; */
+    /* margin-left: 50px; */
+
+    
+}
+/* #ret:hover{ */
+/* #shop:hover{ */
+    /* display: block;
+    color: gray;
+    background: #f4f4f4;
+    /* border: 2px ,  rgb(98, 92, 92), solid; */
+    /* border-width: 3px;
+ border-color: red;
+ border-style: dotted;
+    font-size: 20px;
+    margin: auto;
+    
+    padding: 5px 80px;
+
+    border: none;
+    border-radius: 10px; */ 
+    /* font-size: 25px;
+    color: whitesmoke;
+    
+    display: block;
+    max-width: fit-content;
+    /* background: whitesmoke; */
+    /* text-align: center;
+    
+    
+    padding: 4px 20px; */
+    /* max-width: 100px; */
+    /* margin: auto; */
+    /* margin: 30px 200px; */
+    /* margin-top: 25px;
+    margin-left: 110px;
+
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;  */
+
+/* } */
+
+a{
+    /* font-size: 18px; */
+    
+    text-decoration: none;
+}
+.a2{
+    color:  rgb(121, 94, 227);
+    /* font-size: 20px; */
+}
+#paraq{
+    font-size: 20px;
+}
+.a1{
+    color: rgb(121, 94, 227);
+}
+
+input{
+    display: block;
+    width:350px;
+    /* height: 10px; */
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px ;
+    outline: none;
+    /* font-size: 20px; */
+    
+}
+label{
+    margin-left: 4px;
+    /* font-size: 25px; */
+}
+input{
+    border: 0px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px 15px;
+    
+
+}
+
+
+
+.intro{
+    /* background-color: #020d18; */
+    padding: 0px 20px;
+    color: whitesmoke;
+    font-size: 18px;
+    /* width: max-content; */
+    
+    
+
+}
+/* .container {
+    max-width: 100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  
+  .main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+  }
+  
+  .main-header {
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .yevo{
+    padding-top: 19px;
+    
+  }
+  
+  .main-header .logo {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+  } */

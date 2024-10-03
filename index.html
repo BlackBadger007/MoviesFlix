@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/swiper.css"/>
+    <link rel="stylesheet" href="/fontawesome.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/swiper.js"></script>
+    <script src="/index.js"></script>
+
+    <title>MOVIESFLIX</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        
+        <div class="logo">MOVIESFLIX</a></div>
+           
+        <nav>
+          <ul>
+            <li class="yevo" id="sapa" >
+              <a class="nav-link" href="/trending.html">Trending Actors</a>
+            </li>
+
+            <li id="jotozo">  
+        <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/cate.html?id=28">Action</a> 
+                <a href="/cate.html?id=12">Adventure</a>
+                <a href="/cate.html?id=16">Animation</a>
+                <a href="/cate.html?id=35">Comedy</a>
+                <a href="/cate.html?id=80">Crime</a>
+                <a href="/cate.html?id=99">Drama</a>
+                <a href="/cate.html?id=10751">Family</a>
+                <a href="/cate.html?id=14">Fantasy</a>
+                <a href="/cate.html?id=36">History</a>
+                <a href="/cate.html?id=27">Horror</a>
+                <a href="/cate.html?id=10749">Romance</a>
+                <a href="/cate.html?id=878">Science Fiction</a>
+                <a href="/cate.html?id=53">Thriller</a>
+                <a href="/cate.html?id=10752">War</a>
+              </div>
+              
+              <button class="openbtn" onclick="openNav()">Genres</button>
+              
+
+            </li>
+            <li class="yevo" id="sapa" >
+              <a class="nav-link" href="/shows.html">TV Shows</a>
+            </li>
+            <li class="yevo" id="sapa" >
+              <a class="nav-link" href="/favourite.html">All Time Favourite</a>
+            </li>
+            <li class="yevo" id="sapa" >
+              <a class="nav-link" href="/upcoming.html">Upcoming</a>
+            </li>
+            
+
+            
+            <li>
+                  <div id="mySidepanel2" class="sidepanel2">
+                    <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
+                    <a id="usernamelink" href="/profile.html"></a>
+                      <a href="/providers.html">Watch Providers</a>
+                      <a href="/parental.html">Parental Control</a>
+                  <button id="s-out" >SignOut</button>
+                    
+                  </div>
+                  
+                  <button class="openbtn2" onclick="openNav2()"><img src="/images/people-ribbon-logo-modern-leadership-logo-human-charity-logo_327835-2463.avif" alt="" class="logo1"></button>
+                  
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Now Playing Section -->
+    <section class="now-playing">
+      <h2>Now Playing</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Search Movies -->
+    <section class="search">
+      <div class="container">
+        <div id="alert"></div>
+        <form action="/search.html" class="search-form">
+          <!-- movies and shows radio box -->
+          <div class="search-radio">
+            <input type="radio" id="movie" name="type" value="movie" checked />
+            <label for="movies">Movies</label>
+            <input type="radio" id="tv" name="type" value="tv" />
+            <label for="shows">TV Shows</label>
+          </div>
+          <div class="search-flex">
+            <input
+              type="text"
+              name="search-term"
+              id="search-term"
+              placeholder="Enter search term"
+            />
+            <button class="btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Popular Movies -->
+    <div id="tojo">
+    <section class="container">
+      <h2>Popular Movies</h2>
+      <div id="popular-movies" class="grid">
+      </div>
+        
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="logo"><span>MOVIESFLIX</span></div>
+        <div class="social-links">
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="spinner"></div>
+  </body>
+</html>
