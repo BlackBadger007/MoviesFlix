@@ -1056,10 +1056,10 @@ function signout(){
 // ROUTER
 function check(){
     if(localStorage.getItem('currentAccount') === 'null'){
-      if(global.currentPage === '/login.html'){
+      if(global.currentPage === '/login.html' || global.currentPage === '/login'){
         login()
 
-      }else if(global.currentPage === '/create.html'){
+      }else if(global.currentPage === '/create.html' || global.currentPage === '/create'){
         create()
 
       }else{
@@ -1116,7 +1116,18 @@ function check(){
         lasthai();
         break;
 
+        case'/trending':
+        trending();
+        lasthai();
+        break;
+
         case'/index.html':
+        displayPopularMovies();
+        lasthai();
+        dodo();       
+        break;
+
+        case'/index':
         displayPopularMovies();
         lasthai();
         dodo();       
