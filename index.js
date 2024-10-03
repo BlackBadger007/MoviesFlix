@@ -1054,8 +1054,13 @@ function signout(){
 
   function device(){
     if(/Mobi|Android/i.test(navigator.userAgent)){
-      window.location.href='/not-compatible.html'
+      if(global.currentPage !== '/not-compatible.html'){
+        window.location.href='/not-compatible.html'
+      }
     }else{
+      if(global.currentPage === '/not-compatible.html'){
+        window.location.href='/'
+      }
       check()
     }
   }
