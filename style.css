@@ -621,6 +621,15 @@ section h2 {
   background-color: transparent;
 }
 
-/* #sapa{
-  margin-right: 50px;
-} */
+
+/* incompatible */
+#corn{
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  /* color:#f1c40f; */
+}
+#corn h2{
+  margin-bottom: 10px;
+}
