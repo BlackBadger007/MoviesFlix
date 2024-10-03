@@ -1024,7 +1024,7 @@ function closeNav2() {
 // FOR PROFILE NAME
 function lasthai(){
   let iteminstorage;
-  if(localStorage.getItem('currentAccount')===null){
+  if(localStorage.getItem('currentAccount')=== 'null'){
       iteminstorage=[];
 
   }else{
@@ -1034,9 +1034,8 @@ function lasthai(){
   const item=iteminstorage;
 
   const usernali=document.getElementById('usernamelink');
+  usernali.innerText = item.username
   
-  usernali.innerText=item.username;
-
 }
 
 
@@ -1050,6 +1049,14 @@ function signout(){
       window.location.href = '/login.html'
     } )
     
+  }
+
+  function device(){
+    if(/Mobi|Android/i.test(navigator.userAgent)){
+      alert('not compatible for mobile device , select desktop site mode')
+    }else{
+      check()
+    }
   }
 
 
@@ -1164,8 +1171,8 @@ function check(){
 
         case'/index.html':
         displayPopularMovies();
-        lasthai();
         dodo();       
+        lasthai();
         break;
 
         case'/index':
@@ -1261,6 +1268,6 @@ function check(){
     
       }  
   }
-  document.addEventListener('DOMContentLoaded',check);
+  document.addEventListener('DOMContentLoaded', device);
   
 
