@@ -1064,27 +1064,21 @@ function check(){
       }else if(global.currentPage === '/create.html' || global.currentPage === '/create'){
         create()
         
-      }else {
+      }else{
         window.location.href = '/login.html'
         login()
       }
     }else{
-      if(global.currentPage === '/login.html' || global.currentPage === '/login'){
-        login()
-        
-      }else if(global.currentPage === '/create.html' || global.currentPage === '/create'){
-        create()
-        
-      }else {
-        window.location.href = '/login.html'
-        login()
-      }
+      init()
+      signout()
     }
-      
-    }else{
-        init()
-        signout()
-    }
+
+  }else{
+
+    window.location.href = '/login.html'
+    login()
+
+  } 
 }
 
 
